@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  
+  .form-check-label {
+    margin-left: 10px;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+  }
+  
