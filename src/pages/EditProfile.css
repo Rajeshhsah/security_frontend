@@ -1,0 +1,44 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .img-fluid {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #449d44;
+    border-color: #398439;
+  }
+  
