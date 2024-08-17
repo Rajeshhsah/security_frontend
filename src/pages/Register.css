@@ -1,0 +1,89 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: #f3f3f3;
+  }
+  
+  /* Main Container */
+  .d-flex {
+    display: flex !important;
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+  
+  .vh-100 {
+    height: 100vh !important;
+  }
+  
+  /* Top Text Section */
+  .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Header Section */
+  .header {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgba(255,64,0,1);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Card Section */
+  .card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  .card h1, .card p {
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-label {
+    color: #666;
+    text-align: left;
+  }
+  
+  .form-control {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+  }
+  
+  .btn {
+    background: linear-gradient(90deg, rgba(255,128,0,1) 0%, rgba(255,64,0,1) 100%);
+    color: white;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  

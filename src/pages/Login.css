@@ -1,0 +1,70 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background: #f3f3f3;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://i.imgur.com/81ulPtx.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section img {
+  width: 400px;
+}
+
+.card {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card h1 {
+  color: #333;
+  text-align: center;
+}
+
+.card .form-label {
+  color: #666;
+}
+
+.card .form-control {
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+}
+
+.btn {
+  background: linear-gradient(90deg, rgba(255,128,0,1) 0%, rgba(255,64,0,1) 100%);
+  color: white;
+}
+
+.btn-light {
+  color: rgba(255,64,0,1);
+}
+
+.text-center .text-decoration-none {
+  color: #ff4000;
+}
+
+.text-center .text-decoration-none:hover {
+  text-decoration: underline;
+}
